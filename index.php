@@ -43,61 +43,93 @@
 
     <hr>
 
-    <!-- Sección de Servicios -->
+</div>
 
-    <div class="col-md-12">
-        <h2 class="text-center">Nuestros Servicios</h2>
-        <hr>
-        <?php for ($i = 1; $i <= 8; $i++): ?>
-            <div class="col-md-3">
-                <div class="thumbnail">
-                    <a href="">
-                        <div class="caption text-center">
-                            <h3>Servicio <?php echo $i ?></h3>
+<!-- Sección de Servicios -->
+
+<div class="row services">
+
+    <div class="container">
+        <div class="col-md-12">
+            <h2 class="text-center">Nuestros Servicios</h2>
+            <hr>
+            <?php for ($i = 1; $i <= 4; $i++): ?>
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <a href="">
+                            <div class="caption text-center">
+                                <h3>Servicio <?php echo $i ?></h3>
+                            </div>
+                            <img src="https://www.bbvaopenmind.com/wp-content/uploads/2015/09/BBVA-OpenMind-La-innovaci%C3%B3n-y-la-econom%C3%ADa-de-los-servicios.jpg" class="img-circle" alt="Cinque Terre" width="200" height="400">
+                        </a>
+                        <div class="caption">
+                            <br>
+                            <!-- Opcional -->
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                <br>
+                                <a href="">Leer Más...</a>
+                            </p>
                         </div>
-                        <img src="https://www.bbvaopenmind.com/wp-content/uploads/2015/09/BBVA-OpenMind-La-innovaci%C3%B3n-y-la-econom%C3%ADa-de-los-servicios.jpg" class="img-circle" alt="Cinque Terre" width="200" height="400">
-                    </a>
-                    <div class="caption">
-                        <br>
-                        <!-- Opcional -->
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            <a href="">Leer Más...</a>
-                        </p>
                     </div>
                 </div>
+            <?php endfor; ?>
+        </div>
+    </div>
+</div>
+
+<div class="row whoare">
+    <div class="container">
+        <div class="col-md-12">
+            <h3 class="text-center">¿Quiénes Somos?</h3>
+            <div class="col-md-6">
+                <h4>Nuestra Misión</h4>
+                <img src="http://vitalcorp.mx/wp-content/uploads/2015/04/head-contacto.jpg" class="img-rounded img-contact-index" alt="Cinque Terre" width="100%" height="auto">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab minus quaerat, debitis officia suscipit consectetur deleniti ratione inventore provident, reprehenderit cumque, aperiam quibusdam repudiandae possimus architecto obcaecati hic et impedit.
+                </p>
             </div>
-        <?php endfor; ?>
-    </div>
-
-    <div class="col-md-12" id="contacto">
-        <h3 class="text-center">Contáctanos</h3>
-        <div class="col-md-6">
-            <form action="/action_page.php">
-                <div class="form-group">
-                    <label for="name">Nombre:</label>
-                    <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name">
-                </div>
-                <div class="form-group">
-                    <label for="name">Apellido:</label>
-                    <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name">
-                </div>
-                <div class="form-group">
-                    <label for="name">Apellido:</label>
-                    <textarea class="form-control" name="name" rows="8" cols="10"></textarea>
-                </div>
-                <button type="submit" class="btn btn-success">Enviar</button>
-            </form>
-        </div>
-
-        <div class="col-md-6">
-            <img src="http://vitalcorp.mx/wp-content/uploads/2015/04/head-contacto.jpg" class="img-rounded img-contact-index" alt="Cinque Terre" width="100%" height="auto">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <div class="col-md-6">
+                <h4>Nuestra Visión</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dolor vero amet cum soluta libero incidunt. Tempore aliquid, fuga consectetur id. Dolorum repudiandae similique ipsa sunt, excepturi, delectus repellendus? Beatae!</p>
+                <img src="http://vitalcorp.mx/wp-content/uploads/2015/04/head-contacto.jpg" class="img-rounded img-contact-index" alt="Cinque Terre" width="100%" height="auto">
+            </div>
         </div>
     </div>
+</div>
 
+<div class="row contact">
+
+    <div class="container">
+
+        <div class="col-md-12" id="contacto">
+            <h3 class="text-center">Contáctanos</h3>
+            <div class="col-md-6">
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Apellido:</label>
+                        <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Apellido:</label>
+                        <textarea class="form-control" name="name" rows="8" cols="10"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <img src="http://vitalcorp.mx/wp-content/uploads/2015/04/head-contacto.jpg" class="img-rounded img-contact-index" alt="Cinque Terre" width="100%" height="auto">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- Final de Jumbotron -->
