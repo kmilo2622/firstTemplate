@@ -84,7 +84,9 @@
             <h3 class="text-center">¿Quiénes Somos?</h3>
             <div class="col-md-6">
                 <h4>Nuestra Misión</h4>
-                <img src="http://vitalcorp.mx/wp-content/uploads/2015/04/head-contacto.jpg" class="img-rounded img-contact-index" alt="Cinque Terre" width="100%" height="auto">
+                <div class="text-center">
+                    <img src="http://www.definicionabc.com/wp-content/uploads/Instituciones.jpg" class="img-rounded img-contact-index" alt="Cinque Terre" width="50%" height="50%">
+                </div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab minus quaerat, debitis officia suscipit consectetur deleniti ratione inventore provident, reprehenderit cumque, aperiam quibusdam repudiandae possimus architecto obcaecati hic et impedit.
                 </p>
@@ -92,7 +94,9 @@
             <div class="col-md-6">
                 <h4>Nuestra Visión</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dolor vero amet cum soluta libero incidunt. Tempore aliquid, fuga consectetur id. Dolorum repudiandae similique ipsa sunt, excepturi, delectus repellendus? Beatae!</p>
-                <img src="http://vitalcorp.mx/wp-content/uploads/2015/04/head-contacto.jpg" class="img-rounded img-contact-index" alt="Cinque Terre" width="100%" height="auto">
+                <div class="text-center">
+                    <img src="http://www.colegioceumurcia.es/Portals/2/ImagenesWEB/colegio-ceu-murcia-institucion.jpg" class="img-rounded img-contact-index" alt="Cinque Terre" width="50%" height="50%">
+                </div>
             </div>
         </div>
     </div>
