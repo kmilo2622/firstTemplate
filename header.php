@@ -10,8 +10,103 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
-    <header>
+<script>
+    $(document).ready(function(){
+
+    //Validamos la localización actual de la página
+
+    /*
+    Esta función ha sido una de las más complicadas que he hecho hasta ahora
+    en JavaScript y puedo jurar que no la he sacado de ningún lado sino que la
+    cree por mi propia cuenta
+    */
+
+    var locationPage = location.toString();
+    var partsOfLocation = locationPage.split('/');
+    var parts = partsOfLocation[partsOfLocation.length-1];
+
+    var last = parts.toString();
+
+    console.log(parts);
+
+    switch (last) {
+        case "#home":
+        $('#homeLink').addClass('active');
+        $('#newsLink').removeClass('active');
+        $('#servicesLink').removeClass('active');
+        $('#usLink').removeClass('active');
+        $('#contactLink').removeClass('active');
+        break;
+        case "#news":
+        $('#newsLink').addClass('active');
+        $('#homeLink').removeClass('active');
+        $('#servicesLink').removeClass('active');
+        $('#usLink').removeClass('active');
+        $('#contactLink').removeClass('active');
+        break;
+        case "#services":
+        $('#servicesLink').addClass('active');
+        $('#homeLink').removeClass('active');
+        $('#newsLink').removeClass('active');
+        $('#usLink').removeClass('active');
+        $('#contactLink').removeClass('active');
+        break;
+        case "#us":
+        $('#usLink').addClass('active');
+        $('#homeLink').removeClass('active');
+        $('#newsLink').removeClass('active');
+        $('#servicesLink').removeClass('active');
+        $('#contactLink').removeClass('active');
+        break;
+        case "#contact":
+        $('#contactLink').addClass('active');
+        $('#homeLink').removeClass('active');
+        $('#newsLink').removeClass('active');
+        $('#servicesLink').removeClass('active');
+        $('#usLink').removeClass('active');
+        break;
+
+    }
+
+    var amountScrolled = 300;
+
+    $(window).scroll(function() {
+        if ( $(window).scrollTop() > amountScrolled ) {
+            $('a.scrollToTop').fadeIn('slow');
+        } else {
+            $('a.scrollToTop').fadeOut('slow');
+        }
+    });
+
+
+    // Este efecto me permite animar ciertos divs para que tengan un fade in
+    // fue extraido de la siguiente url https://codepen.io/annalarson/pen/GesqK
+    // Tengo que dar credito por ese gran aporte...
+
+    /* Every time the window is scrolled ... */
+    // $(window).scroll( function(){
+
+    //     /* Check the location of each desired element */
+    //     $('.showme').each( function(i){
+
+    //         var bottom_of_object = $(this).position().top + $(this).outerHeight();
+    //         var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+    //         /* If the object is completely visible in the window, fade it it */
+    //         if( bottom_of_window > bottom_of_object ){
+
+    //             $(this).animate({'opacity':'1'},2500);
+
+    //         }
+
+    //     }); 
+
+    // });
+
+});
+</script>
+<body ng-app="app">
+    <header id="home">
         <!-- Barra de Navegación -->
         <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
             <div class="container-fluid">
@@ -24,18 +119,22 @@
                     <a class="navbar-brand" href="#">Nombre Empresa</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Inicio</a></li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Inicio<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Page 1-1</a></li>
-                                <li><a href="#">Page 1-2</a></li>
-                                <li><a href="#">Page 1-3</a></li>
-                            </ul>
+                    <ul class="nav navbar-nav" ng-controller="navigationController">
+                        <li id="homeLink" class="active">
+                            <a class="smoothScroll" href="#home" ng-click="changeClass(1)">Inicio</a>
                         </li>
-                        <li><a href="#">Page 2</a></li>
-                        <li><a href="#">Page 3</a></li>
+                        <li id="newsLink">
+                            <a class="smoothScroll" href="#news" ng-click="changeClass(2)">Noticias</a>
+                        </li>
+                        <li id="servicesLink">
+                            <a class="smoothScroll" href="#services" ng-click="changeClass(3)">Servicios</a>
+                        </li>
+                        <li id="usLink">
+                            <a class="smoothScroll" href="#us" ng-click="changeClass(4)">Nosotros</a>
+                        </li>
+                        <li id="contactLink">
+                            <a class="smoothScroll" href="#contact" ng-click="changeClass(5)">Contacto</a>
+                        </li>
                     </ul>
                 </div>
             </div>

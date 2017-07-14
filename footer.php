@@ -9,7 +9,10 @@
 				<p align="right">Página Web Desarrollada por <a href="http://www.johnarij.ml">John Arij</a></p>
 			</div>
 		</div>
+		<a href="#home" class="scrollToTop smoothScroll">Back To Top</a>
 	</footer>
 
+	<script src="js/angular.js"></script>
+	<script src="js/smoothscroll.js"></script>
 </body>
 </html>

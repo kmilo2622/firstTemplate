@@ -7,14 +7,15 @@
             <p>Descripción de la empresa.</p>
         </div>
         <br><br>
-        <p id="button-start">
-            <a href="#contacto" class="btn btn-primary btn-lg" role="button">
+        <p id="button-start" ng-controller="navigationController">
+            <a href="#contact" ng-click="changeClass(5)" class="btn btn-primary btn-lg" role="button">
                 Comenzar
             </a>
         </p>
     </div>
 </div>
 
+<div id="news"></div>
 <div class="container">
 
     <!-- Sección de Noticias -->
@@ -47,6 +48,8 @@
 
 <!-- Sección de Servicios -->
 
+<div id="services"></div>
+
 <div class="row services">
 
     <div class="container">
@@ -77,7 +80,7 @@
         </div>
     </div>
 </div>
-
+<div id="us"></div>
 <div class="row whoare">
     <div class="container">
         <div class="col-md-12">
@@ -102,11 +105,12 @@
     </div>
 </div>
 
+<div id="contact"></div>
 <div class="row contact">
 
     <div class="container">
 
-        <div class="col-md-12" id="contacto">
+        <div class="col-md-12">
             <h3 class="text-center">Contáctanos</h3>
             <div class="col-md-6">
                 <form action="/action_page.php">
