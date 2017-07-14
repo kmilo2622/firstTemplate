@@ -1,6 +1,6 @@
 <footer>
 	<div class="container">
-		<div class="col-md-4">
+		<div class="col-md-4 text-center">
 			<p>Copytight © <?php echo date('Y') ?> <br> 
 				<strong>Nombre de la Empresa</strong> | Todos los Derechos Reservados</p>
 			</div>
