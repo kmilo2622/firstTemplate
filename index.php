@@ -8,7 +8,7 @@
         </div>
         <br><br>
         <p id="button-start" ng-controller="navigationController">
-            <a href="#contact" ng-click="changeClass(5)" class="btn btn-primary btn-lg" role="button">
+            <a href="#contact" ng-click="changeClass(5)" class="btn btn-primary btn-lg smoothScroll" role="button">
                 Comenzar
             </a>
         </p>
@@ -25,7 +25,7 @@
         <?php for ($i = 1; $i <= 3; $i++): ?>
             <div class="col-md-4">
                 <div class="thumbnail">
-                    <a href="">
+                    <a href="" data-toggle="modal" data-target="#noticia<?php echo $i; ?>">
                         <div class="caption text-center">
                             <h3>Titulo <?php echo $i ?></h3>
                         </div>
@@ -34,11 +34,13 @@
                     <div class="caption">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            <a href="">Leer Más...</a>
+                            <a href="#" data-toggle="modal" data-target="#noticia<?php echo $i; ?>">Leer Más...</a>
                         </p>
                     </div>
                 </div>
             </div>
+
+            <?php include 'modals/notice.php' ?>
         <?php endfor; ?>
     </div>
 
@@ -113,7 +115,7 @@
         <div class="col-md-12">
             <h3 class="text-center">Contáctanos</h3>
             <div class="col-md-6">
-                <form action="/action_page.php">
+                <form action="controllers/mail.php" method="post">
                     <div class="form-group">
                         <label for="name">Nombre:</label>
                         <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name">
