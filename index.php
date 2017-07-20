@@ -61,27 +61,185 @@
             <div class="col-md-12">
                 <h2 class="text-center">Nuestros Servicios</h2>
                 <hr>
-                <?php for ($i = 1; $i <= 4; $i++): ?>
-                    <div class="col-md-3">
-                        <div class="thumbnail">
-                            <a href="">
-                                <div class="caption text-center">
-                                    <h3>Servicio <?php echo $i ?></h3>
-                                </div>
-                                <img src="https://www.bbvaopenmind.com/wp-content/uploads/2015/09/BBVA-OpenMind-La-innovaci%C3%B3n-y-la-econom%C3%ADa-de-los-servicios.jpg" class="img-circle" alt="Cinque Terre" width="200" height="400">
-                            </a>
-                            <div class="caption">
+                <!-- Inicio del Servicio -->
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <a href="">
+                            <div class="caption text-center">
+                                <h3>Mensajería <br> <br></h3>
                                 <br>
-                                <!-- Opcional -->
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    <br>
-                                    <a href="">Leer Más...</a>
-                                </p>
                             </div>
+                            <img src="https://computernewagedotcom.files.wordpress.com/2015/06/mensajeria-instantanea1.png" class="img-circle img-service" alt="Cinque Terre" width="200" height="400">
+                        </a>
+                        <div class="caption">
+                            <br>
+                            <!-- Opcional -->
+                            <!-- <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                <br>
+                                <a href="">Leer Más...</a>
+                            </p> -->
                         </div>
                     </div>
-                <?php endfor; ?>
+                </div>
+                <!-- Final del Servicio -->
+
+                <!-- Inicio del Servicio -->
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <a href="">
+                            <div class="caption text-center">
+                                <h3>Trámites <br><br></h3>
+                                <br>
+                            </div>
+                            <img src="http://elsalvador.eregulations.org/media/hojita_93.png" class="img-circle img-service" alt="Cinque Terre" width="200" height="400">
+                        </a>
+                        <div class="caption">
+                            <br>
+                            <!-- Opcional -->
+                            <!-- <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                <br>
+                                <a href="">Leer Más...</a>
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Final del Servicio -->
+
+                <!-- Inicio del Servicio -->
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <a href="">
+                            <div class="caption text-center">
+                                <h3>Diligencias <br> <br></h3>
+                                <br>
+                            </div>
+                            <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Lightmatter_paperwork.jpg/220px-Lightmatter_paperwork.jpg" class="img-circle img-service" alt="Cinque Terre" width="200" height="400">
+                        </a>
+                        <div class="caption">
+                            <br>
+                            <!-- Opcional -->
+                            <!-- <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                <br>
+                                <a href="">Leer Más...</a>
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Final del Servicio -->
+
+                <!-- Inicio del Servicio -->
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <a href="">
+                            <div class="caption text-center">
+                                <h3>Radicación de Facturas</h3>
+                                <br>
+                            </div>
+                            <img src="http://www.riesgoymorosidad.com/wp-content/uploads/2008/07/facturas.jpg" class="img-circle img-service" alt="Cinque Terre" width="200" height="400">
+                        </a>
+                        <div class="caption">
+                            <br>
+                            <!-- Opcional -->
+                            <!-- <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                <br>
+                                <a href="">Leer Más...</a>
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Final del Servicio -->
+
+                <!-- Inicio del Servicio -->
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <a href="">
+                            <div class="caption text-center">
+                                <h3>Trámites Empresariales</h3>
+                                <br>
+                            </div>
+                            <img src="http://guatemala.eregulations.org/media/empresa_1.jpg" class="img-circle img-service" alt="Cinque Terre" width="200" height="400">
+                        </a>
+                        <div class="caption">
+                            <br>
+                            <!-- Opcional -->
+                            <!-- <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                <br>
+                                <a href="">Leer Más...</a>
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Final del Servicio -->
+
+                <!-- Inicio del Servicio -->
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <a href="">
+                            <div class="caption text-center">
+                                <h3>Trámites Personales <br> <br></h3>
+                                <br>
+                            </div>
+                            <img src="http://www.segelsoft.com/wp-content/uploads/2011/05/Empresa.jpg" class="img-circle img-service" alt="Cinque Terre" width="200" height="400">
+                        </a>
+                        <div class="caption">
+                            <br>
+                            <!-- Opcional -->
+                            <!-- <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                <br>
+                                <a href="">Leer Más...</a>
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Final del Servicio -->
+
+                <!-- Inicio del Servicio -->
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <a href="">
+                            <div class="caption text-center">
+                                <h3>Radicación ante Entidades Públicas <br> <br></h3>
+                            </div>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Villahermosa.Palacio_de_Gobierno_01.JPG/1200px-Villahermosa.Palacio_de_Gobierno_01.JPG" class="img-circle img-service radicaciones" alt="Cinque Terre" width="200" height="400">
+                        </a>
+                        <div class="caption">
+                            <!-- Opcional -->
+                            <!-- <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                <br>
+                                <a href="">Leer Más...</a>
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Final del Servicio -->
+
+                <!-- Inicio del Servicio -->
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <a href="">
+                            <div class="caption text-center">
+                                <h3>Radicación ante Entidades Privadas <br> <br></h3>
+                            </div>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Palacio_De_La_Gobernaci%C3%B3n.JPG/1200px-Palacio_De_La_Gobernaci%C3%B3n.JPG" class="img-circle img-service radicaciones" alt="Cinque Terre" width="200" height="400">
+                        </a>
+                        <div class="caption">
+                            <!-- Opcional -->
+                            <!-- <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                <br>
+                                <a href="">Leer Más...</a>
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Final del Servicio -->
             </div>
         </div>
     </div>

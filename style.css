@@ -99,3 +99,13 @@ footer {
     -moz-border-radius: 30px;
     border-radius: 30px;
 }
+
+.img-service {
+    margin-top: 30px;
+    height: 100px !important;
+    object-fit: none;
+}
+
+.radicaciones {
+    margin-bottom: 12px !important;
+}
