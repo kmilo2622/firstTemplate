@@ -33,10 +33,14 @@ footer {
     box-shadow: 0px 5px 5px rgba(0,0,0,0.7);
 }
 
+.navbar-left {
+    text-decoration: none !important;
+}
+
 /*General Body*/
 
 .container-jumbotron {
-    height: 70vh;
+    height: 90vh;
     margin-bottom: 0px;
     color: white;
     padding-top: 20vh;
@@ -44,6 +48,10 @@ footer {
 
 .container-jumbotron > .title {
     text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+#slogan {
+    font-size: 15px;
 }
 
 .jumbotron {

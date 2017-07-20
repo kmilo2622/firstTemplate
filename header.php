@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Título | Nombre de Página</title>
+    <title>Inicio | Tu Aliado Express</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -109,17 +110,21 @@
     <header id="home">
         <!-- Barra de Navegación -->
         <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-            <div class="container-fluid">
+            <div class="container-fluid" ng-controller="navigationController">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Nombre Empresa</a>
+                    <!-- <a class="navbar-brand" href="#home">Tu Aliado Express</a> -->
+                    <a class="navbar-left smoothScroll" href="#home" ng-click="changeClass(1)">
+                        <img src="img/favicon.png" style="padding-top: 5px; padding-bottom: 5px;" width="50" height="50">
+                        &nbsp; <strong style="color: black;">Tu Aliado Express</strong> &nbsp;
+                    </a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav" ng-controller="navigationController">
+                    <ul class="nav navbar-nav">
                         <li id="homeLink" class="active">
                             <a class="smoothScroll" href="#home" ng-click="changeClass(1)">Inicio</a>
                         </li>
