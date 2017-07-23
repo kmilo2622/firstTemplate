@@ -55,8 +55,10 @@ footer {
 }
 
 .jumbotron {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url(http://wallpapercave.com/wp/NVC0Z2b.jpg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url(img/banner.png);
     background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .img-contact-index {
@@ -64,7 +66,7 @@ footer {
 }
 
 .services {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url(http://media.digitalcameraworld.com/wp-content/uploads/sites/123/2015/05/Moving_landscape_camera_settings.jpg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url(http://www.moaconsulting.es/wp-content/uploads/2012/04/Moadiario-Mentoring.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,4 +110,19 @@ footer {
 
 .radicaciones {
     margin-bottom: 12px !important;
+}
+
+.img-noticia {
+    height: 250px !important;
+    object-fit: none;
+}
+
+.img-noticia-detalle {
+    height: 250px;
+    object-fit: none;
+}
+
+.contact-picture {
+    height: 250px !important;
+    object-fit: none;
 }

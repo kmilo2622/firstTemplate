@@ -1,17 +1,17 @@
-<!-- Modal -->
-<div id="noticia<?php echo $i ?>" class="modal fade" role="dialog">
+<!-- Inicio del Modal de Noticia -->
+<div id="noticia2" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
     <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Noticia <?php echo $i ?></h4>
+        <h4 class="modal-title">Recuerda que somos el Aliado que necesitas</h4>
       </div>
       <div class="modal-body">
-        <img src="http://becomeabetterphotographer.co.uk/wp-content/uploads/2014/05/landscape-focusing2.jpg" alt="Lights" style="width:100%">
+        <img class="img-noticia-detalle" src="img/noticia2.png" alt="Noticia 2" style="width:100%">
         <br><br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto dicta illo quidem obcaecati error magnam culpa id repellendus quae voluptates tempore nihil et, quia amet nisi laudantium voluptatibus eum libero?</p>
+        <p>Sabemos la importancia de tus envíos; por eso todos nuestros servicios son Express es decir, se recogen y se entregan el mismo día.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
@@ -20,3 +20,28 @@
 
   </div>
 </div>
+<!-- Final del Modal de Noticia -->
+
+<!-- Inicio del Modal de Noticia -->
+<div id="noticia1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">¡Inauguramos Nuestros Servicios!</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-noticia-detalle" src="img/logo_completo.png" alt="Logo Completo" style="width:100%">
+        <br><br>
+        <p>Desde el día xxxx inauguramos nuestros servicios al público, ¡puedes comunicarte con nosotros para conocer más!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- Final del Modal de Noticia -->
