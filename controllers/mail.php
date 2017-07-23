@@ -83,7 +83,7 @@ $mail->From = $mailsettings['fromusername'];
 $mail->FromName = $mailsettings['fromusername'];
 $mail->AddAddress($mailsettings['username'], 'Informacion');
 $mail->IsHTML(true);
-$mail->SMTPDebug = 2;
+$mail->SMTPDebug = 0;
 $mail->Subject = $asunto;
 $mail->MsgHTML($message);
 
