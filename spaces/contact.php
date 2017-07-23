@@ -23,8 +23,8 @@
                         <input type="text" class="form-control" id="pick_address" placeholder="Ingresar Correo Electrónico" name="pick_address">
                     </div>
                     <div class="form-group">
-                        <label for="pick_address">Dirección de Entrega:</label>
-                        <input type="text" class="form-control" id="pick_address" placeholder="Ingresar Correo Electrónico" name="pick_address">
+                        <label for="return_address">Dirección de Entrega:</label>
+                        <input type="text" class="form-control" id="return_address" placeholder="Ingresar Correo Electrónico" name="return_address">
                     </div>
                     <div class="form-group">
                         <label for="name">Observaciones *:</label>
