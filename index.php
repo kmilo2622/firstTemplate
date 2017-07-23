@@ -8,6 +8,7 @@
             <p id="slogan"><em>"Si tu problema es el tiempo, <strong>Tu Aliado Express</strong> es la solución que necesitas, 
                 <br>
                 nosotros hacemos tus trámites y diligencias por tí"</em></p>
+                <p>Llámanos, Nosotros te Ayudamos</p>
             </div>
             <br><br>
             <p id="button-start" ng-controller="navigationController">
@@ -89,33 +90,10 @@
                     <div class="thumbnail">
                         <a href="">
                             <div class="caption text-center">
-                                <h3>Trámites <br><br></h3>
+                                <h3>Trámites y Diligencias<br></h3>
                                 <br>
                             </div>
                             <img src="http://elsalvador.eregulations.org/media/hojita_93.png" class="img-circle img-service" alt="Cinque Terre" width="200" height="400">
-                        </a>
-                        <div class="caption">
-                            <br>
-                            <!-- Opcional -->
-                            <!-- <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                <br>
-                                <a href="">Leer Más...</a>
-                            </p> -->
-                        </div>
-                    </div>
-                </div>
-                <!-- Final del Servicio -->
-
-                <!-- Inicio del Servicio -->
-                <div class="col-md-3">
-                    <div class="thumbnail">
-                        <a href="">
-                            <div class="caption text-center">
-                                <h3>Diligencias <br> <br></h3>
-                                <br>
-                            </div>
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Lightmatter_paperwork.jpg/220px-Lightmatter_paperwork.jpg" class="img-circle img-service" alt="Cinque Terre" width="200" height="400">
                         </a>
                         <div class="caption">
                             <br>
@@ -240,6 +218,25 @@
                     </div>
                 </div>
                 <!-- Final del Servicio -->
+
+                <!-- Inicio del Servicio -->
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <a href="">
+                            <div class="caption text-center">
+                                <h3>Mensajería para E-Commerce <br> <br></h3>
+                            </div>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Palacio_De_La_Gobernaci%C3%B3n.JPG/1200px-Palacio_De_La_Gobernaci%C3%B3n.JPG" class="img-circle img-service radicaciones" alt="Cinque Terre" width="200" height="400">
+                        </a>
+                        <div class="caption">
+                            <!-- Opcional -->
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Final del Servicio -->
             </div>
         </div>
     </div>
@@ -248,18 +245,26 @@
         <div class="container">
             <div class="col-md-12">
                 <h3 class="text-center">¿Quiénes Somos?</h3>
+                <div class="col-md-12 text-center">
+                    <br>
+                    Tu Aliado Express esta conformado por un grupo de personas con experiencia de mas de 10 años en el campo de la mensajería y logística, contamos con un grupo humano altamente calificado, y apasionado por lo que hace, al que le gusta los grandes retos, nuestro lema es trabajar con calidad, pasión, honestidad y eficiencia, con el objetivo de satisfacer las necesidades de nuestros clientes.
+                    <hr>
+                </div>
                 <div class="col-md-6">
-                    <h4>Nuestra Misión</h4>
+                    <h4 class="text-center">Nuestra Misión</h4>
+                    <br>
                     <div class="text-center">
                         <img src="http://www.definicionabc.com/wp-content/uploads/Instituciones.jpg" class="img-rounded img-contact-index" alt="Cinque Terre" width="50%" height="50%">
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab minus quaerat, debitis officia suscipit consectetur deleniti ratione inventore provident, reprehenderit cumque, aperiam quibusdam repudiandae possimus architecto obcaecati hic et impedit.
+                        Servir con calidad, pasión, honestidad, y eficiencia, en todos nuestros servicios, contando con personal altamente calificado en cada una de las áreas de nuestra empresa, con el objetivo de brindar satisfacción a nuestros clientes.
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <h4>Nuestra Visión</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dolor vero amet cum soluta libero incidunt. Tempore aliquid, fuga consectetur id. Dolorum repudiandae similique ipsa sunt, excepturi, delectus repellendus? Beatae!</p>
+                    <h4 class="text-center">Nuestra Visión</h4>
+                    <br>
+                    <p>Ser reconocidos como una de las empresas líderes, por su alta calidad, pasión, honestidad, y eficiencia en los servicios prestados.</p>
+                    <br>
                     <div class="text-center">
                         <img src="http://www.colegioceumurcia.es/Portals/2/ImagenesWEB/colegio-ceu-murcia-institucion.jpg" class="img-rounded img-contact-index" alt="Cinque Terre" width="50%" height="50%">
                     </div>
