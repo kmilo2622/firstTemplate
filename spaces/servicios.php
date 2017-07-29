@@ -12,7 +12,7 @@
                             <h3>Trámites <br> <br></h3>
                             <br>
                         </div>
-                        <img src="https://computernewagedotcom.files.wordpress.com/2015/06/mensajeria-instantanea1.png" class="img-circle img-service" alt="Trámites" width="200" height="200">
+                        <img src="img/fila.jpg" class="img-circle img-service" alt="Trámites" width="200" height="200">
                     </a>
                     <div class="caption">
                         <br>
@@ -29,7 +29,7 @@
                             <h3>Diligencias Personales <br></h3>
                             <br>
                         </div>
-                        <img src="img/fila.jpg" class="img-circle img-service" alt="Diligencias" width="200" height="200">
+                        <img src="img/messager.JPG" class="img-circle img-service" alt="Diligencias" width="200" height="200">
                     </a>
                     <div class="caption">
                         <br>

@@ -68,7 +68,11 @@
                 <p>
 
                     <strong>Diligencias Empresariales</strong> <br>
-                    Este servicio fue diseñado para  todas las empresas que no tienen mensajero, o que el mensajero no alcanza con todas las entregas o radicaciones  del dia. Sin tener que pagar salarios y prestaciones, con nosotros solo paga por diligencia. <br><br>
+                    Este servicio fue diseñado para  todas las empresas que no tienen mensajero, o que el mensajero no alcanza con todas las entregas o radicaciones  del dia. Sin tener que pagar salarios y prestaciones, con nosotros solo paga por diligencia. <br>
+                    <ul>
+                        <li>Recogida de Cheques</li>
+                        <li>Entrega de Licitaciones</li>
+                    </ul>
                 </p>
             </div>
             <div class="modal-footer">
@@ -172,7 +176,7 @@
                 <h4 class="modal-title">Diligencias Personales</h4>
             </div>
             <div class="modal-body">
-                <img class="img-noticia-detalle" src="img/fila.jpg" alt="Diligencias" style="width:100%">
+                <img class="img-noticia-detalle" src="img/messager.JPG" alt="Diligencias" style="width:100%">
                 <br><br>
                 <p>
                     <strong>Diligencias Personales</strong> <br>
@@ -220,7 +224,7 @@
                 <h4 class="modal-title">Trámites</h4>
             </div>
             <div class="modal-body">
-                <img class="img-noticia-detalle" src="https://computernewagedotcom.files.wordpress.com/2015/06/mensajeria-instantanea1.png" alt="Trámites" style="width:100%">
+                <img class="img-noticia-detalle" src="img/fila.jpg" alt="Trámites" style="width:100%">
                 <br><br>
                 <p>
                     Son todas las radicaciones, o incripciones, para las cuales se requiere de mucho tiempo, ya que se debe tomar turno, o hacer largas filas.
