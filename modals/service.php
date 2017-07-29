@@ -184,8 +184,7 @@
                     <ul>
                         <li>Radicacion de cuentas de cobro</li>
                         <li>Consignaciones</li>
-                        <li>Pagos de Créditos</li>
-                        <li>Pagos de Créditos o Tarjeta de Crédito</li>
+                        <li>Pagos de Créditos o Tarjeta de Crédito </li>
                         <li>Pagos de universidad</li>
                         <li>Diligencias ante universidad</li>
                         <li>Entre otras...</li>
