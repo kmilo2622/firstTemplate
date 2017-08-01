@@ -126,7 +126,7 @@
                 <div class="thumbnail">
                     <a href="" data-toggle="modal" data-target="#servicio5">
                         <div class="caption text-center">
-                            <h3>Pago de impuestos para Carros y Motos</h3>
+                            <h3>Liquidación y Pago de Impuestos</h3>
                             <br>
                         </div>
                         <img src="https://c1.staticflickr.com/3/2166/2247897607_3d1271e420_b.jpg" class="img-circle img-service" alt="Liquidación" width="200" height="200">
