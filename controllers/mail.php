@@ -52,7 +52,6 @@ if (isset($request['observations'])) {
 //ahora configuramos el email
 
 //$destinatario = $mailsettings['username'];
-$destinatario = $email;
 
 date_default_timezone_set("America/Bogota");
 $time = time();
@@ -74,14 +73,14 @@ $message = str_replace('%pagina%', $_SERVER['HTTP_HOST'], $message);
 $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->SMTPAuth = true;
-$mail->SMTPSecure = "tls";
-$mail->Host = "smtp.gmail.com"; //Smtp de 1and1
-$mail->Port = '587';
+$mail->SMTPSecure = "ssl";
+$mail->Host = $mailsettings['host'];; //Smtp de 1and1
+$mail->Port = $mailsettings['port'];;
 $mail->Username = $mailsettings['username']; //Correo de 1and1
 $mail->Password = $mailsettings['password']; //Password del correo
 $mail->From = $mailsettings['fromusername'];
-$mail->FromName = $mailsettings['fromusername'];
-$mail->AddAddress($mailsettings['username'], 'Informacion');
+$mail->FromName = 'Contacto Tu Aliado Express';
+$mail->AddAddress($mailsettings['destinatario'], 'Informacion');
 $mail->IsHTML(true);
 $mail->SMTPDebug = 0;
 $mail->Subject = $asunto;
