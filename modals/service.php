@@ -72,6 +72,7 @@
                     <ul>
                         <li>Recogida de Cheques</li>
                         <li>Entrega de Licitaciones</li>
+                        <li>Entrega de Invitaciones para toda clase de Eventos</li>
                     </ul>
                 </p>
             </div>
@@ -187,6 +188,9 @@
                         <li>Pagos de Créditos o Tarjeta de Crédito </li>
                         <li>Pagos de universidad</li>
                         <li>Diligencias ante universidad</li>
+                        <li>Entrega de Invitaciones para toda clase de Eventos</li>
+                        <li>Compra de Boltería para Conciertos y Fútbol</li>
+                        <li>Compra de Pasajes aéreos y terrestres</li>
                         <li>Entre otras...</li>
                     </ul>
                     <br>
