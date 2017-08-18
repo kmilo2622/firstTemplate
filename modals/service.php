@@ -99,7 +99,7 @@
                 <img class="img-noticia-detalle" src="https://c1.staticflickr.com/3/2166/2247897607_3d1271e420_b.jpg" alt="Radicaciones" style="width:100%">
                 <br><br>
                 <p>
-                    Ya no tienes que preocuparte, por buzcar quien liquide tus impuestos, y despues ir a hacer largas filas para pagar tu impuesto. <br>
+                    Ya no tienes que preocuparte, por buscar quien liquide tus impuestos, y despues ir a hacer largas filas para pagar tu impuesto. <br>
                     <strong>Nosotros lo hacemos por ti.</strong> <br>
                     (*) Este servicio solo es para bogota, cundinamarca, meta, y antioquia.
                 </p>
@@ -128,7 +128,7 @@
                 <br><br>
                 <p>
                     Este servicio esta diseñado para establecer la alianza perfecta, entre las tiendas virtuales y <strong>Tu Aliado Express</strong> para que tu unica preocupacion sea vender y nosotros nos encargamos de entregar  tus productos. <br>
-                    Recuerda tu vendes, nosostros entregamos por ti.
+                    Recuerda, tu vendes y nosostros entregamos por ti.
                 </p>
             </div>
             <div class="modal-footer">

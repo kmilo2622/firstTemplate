@@ -2,8 +2,22 @@
 <html lang="es">
 <head>
     <title>Inicio | Tu Aliado Express</title>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Tu Aliado Express,
+    TAE,
+    Mandados,
+    Envíos,
+    Envíos en Bogotá,,
+    Trámites,
+    Trámites en Bogotá,
+    Diligencias,
+    Diligencias en Bogotá">
+    <meta name="author" content="John Arij">
+    <meta name="copyright" content="Tu Aliado Express">
+    <meta name="description" content="Tu Aliado Express es una empresa de mensajería, trámites, mandados, diligencias, radicaciones, envíos y vueltas de la ciudad de Bogotá, Colombia. ¡Llámanos y nosotros haremos que tu tiempo sea de calidad!">
+
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
