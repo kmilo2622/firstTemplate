@@ -63,7 +63,7 @@
                             <h3>Radicación de Facturas <br></h3>
                             <br>
                         </div>
-                        <img src="http://www.riesgoymorosidad.com/wp-content/uploads/2008/07/facturas.jpg" class="img-circle img-service" alt="Radicaciones" width="200" height="200">
+                        <img src="img/facturas.jpg" class="img-circle img-service" alt="Radicaciones" width="200" height="200">
                     </a>
                     <div class="caption">
                         <br>
@@ -113,7 +113,7 @@
                         <div class="caption text-center">
                             <h3>Mensajería para E-Commerce <br><br></h3>
                         </div>
-                        <img src="http://www.moaconsulting.es/wp-content/uploads/2014/01/E-commerce.png" class="img-circle img-service radicaciones" alt="e-Commerce" width="200" height="200">
+                        <img src="img/E-commerce.png" class="img-circle img-service radicaciones" alt="e-Commerce" width="200" height="200">
                     </a>
                     <div class="caption">
                     </div>
@@ -129,7 +129,7 @@
                             <h3>Liquidación y Pago de Impuestos</h3>
                             <br>
                         </div>
-                        <img src="https://c1.staticflickr.com/3/2166/2247897607_3d1271e420_b.jpg" class="img-circle img-service" alt="Liquidación" width="200" height="200">
+                        <img src="img/2247897607_3d1271e420_b.jpg" class="img-circle img-service" alt="Liquidación" width="200" height="200">
                     </a>
                     <div class="caption">
                         <br>

@@ -96,7 +96,7 @@
                 <h4 class="modal-title">Liquidación y Pago de Impuestos para Carros y Motos</h4>
             </div>
             <div class="modal-body">
-                <img class="img-noticia-detalle" src="https://c1.staticflickr.com/3/2166/2247897607_3d1271e420_b.jpg" alt="Radicaciones" style="width:100%">
+                <img class="img-noticia-detalle" src="img/2247897607_3d1271e420_b.jpg" alt="Radicaciones" style="width:100%">
                 <br><br>
                 <p>
                     Ya no tienes que preocuparte, por buscar quien liquide tus impuestos, y despues ir a hacer largas filas para pagar tu impuesto. <br>
@@ -124,7 +124,7 @@
                 <h4 class="modal-title">Mensajería para E-Commerce o Ventas por Internet</h4>
             </div>
             <div class="modal-body">
-                <img class="img-noticia-detalle" src="http://www.moaconsulting.es/wp-content/uploads/2014/01/E-commerce.png" alt="Radicaciones" style="width:100%">
+                <img class="img-noticia-detalle" src="img/E-commerce.png" alt="Radicaciones" style="width:100%">
                 <br><br>
                 <p>
                     Este servicio esta diseñado para establecer la alianza perfecta, entre las tiendas virtuales y <strong>Tu Aliado Express</strong> para que tu unica preocupacion sea vender y nosotros nos encargamos de entregar  tus productos. <br>
@@ -151,7 +151,7 @@
                 <h4 class="modal-title">Radicación de Facturas</h4>
             </div>
             <div class="modal-body">
-                <img class="img-noticia-detalle" src="http://www.riesgoymorosidad.com/wp-content/uploads/2008/07/facturas.jpg" alt="Radicaciones" style="width:100%">
+                <img class="img-noticia-detalle" src="img/facturas.jpg" alt="Radicaciones" style="width:100%">
                 <br><br>
                 <p>
                     Recogemos y entregamos sus facturas en la fecha y hora que nos indiquen, somos expertos, nuestra experiencia garantiza el servicio. <br>

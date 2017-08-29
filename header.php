@@ -114,7 +114,7 @@
 
     //         }
 
-    //     }); 
+    //     });
 
     // });
 
@@ -153,6 +153,9 @@
                         </li>
                         <li id="contactLink">
                             <a class="smoothScroll" href="#contact" ng-click="changeClass(5)">Contacto</a>
+                        </li>
+                        <li>
+                            <a class="" href="http://www.tualiadoexpress.com.co/blog" target="_blank">Blog</a>
                         </li>
                     </ul>
                 </div>

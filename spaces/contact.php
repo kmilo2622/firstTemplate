@@ -35,12 +35,12 @@
             </div>
 
             <div class="col-md-6">
-                <img src="http://blogthinkbig.com/wp-content/uploads/2015/02/telefono-movil.jpg" alt="Contacto" width="100%" class="contact-picture">
+                <img src="img/telefono-movil.jpg" alt="Contacto" width="100%" class="contact-picture">
                 <p>
                     <div class="alert alert-info">
                         <strong>Info!</strong> Todos los campos marcados con asterisco (*) son requeridos.
                     </div>
-                    Contáctanos a través de este formulario y en 10 minutos uno de nuestros asesores se pondrá en contacto contigo. 
+                    Contáctanos a través de este formulario y en 10 minutos uno de nuestros asesores se pondrá en contacto contigo.
                     <p>
                         <strong>Horarios de atención</strong>
                         <p>
