@@ -53,7 +53,24 @@
                         <p>
                             <strong>Celular: </strong> +57 302 282 4646 <br>
                             <strong>Ciudad: </strong> Bogotá D.C. <br>
-                            <strong>E-mail: </strong> <a href="mailto:info@<?php echo $_SERVER['HTTP_HOST']; ?>">info@<?php echo $_SERVER['HTTP_HOST']; ?></a>
+                            <strong>E-mail: </strong> <a href="mailto:info@tualiadoexpress.com.co">info@tualiadoexpress.com.co</a>
+                            <div class="col-md-12">
+                                <div class="col-md-1">
+                                    <a href="https://www.facebook.com/TAERedes" target="_blank">
+                                        <img src="img/ions/facebook.png" alt="" width="25" height="25">
+                                    </a>
+                                </div>
+                                <div class="col-md-1">
+                                    <a href="https://twitter.com/TAERedes" target="_blank">
+                                        <img src="img/ions/twitter.png" alt="" width="25" height="25">
+                                    </a>
+                                </div>
+                                <div class="col-md-1">
+                                    <a href="mailto:info@tualiadoexpress.com.co" target="_blank">
+                                        <img src="img/ions/mail.png" alt="" width="25" height="25">
+                                    </a>
+                                </div>
+                            </div>
                         </p>
                     </p>
                 </p>
