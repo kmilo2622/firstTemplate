@@ -51,7 +51,7 @@
                     <p>
                         <strong>Datos de Contacto</strong>
                         <p>
-                            <strong>Celular: </strong> +57 302 282 4646 <br>
+                            <strong>Celular: </strong> (+57) 302 282 4646 - 313 824 1584<br>
                             <strong>Ciudad: </strong> Bogotá D.C. <br>
                             <strong>E-mail: </strong> <a href="mailto:info@tualiadoexpress.com.co">info@tualiadoexpress.com.co</a>
                             <div class="col-md-12">
