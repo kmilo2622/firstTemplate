@@ -42,8 +42,6 @@
 
     var last = parts.toString();
 
-    console.log(parts);
-
     switch (last) {
         case "#home":
         $('#homeLink').addClass('active');
@@ -84,6 +82,39 @@
     }
 
     var amountScrolled = 300;
+
+    $('#myNavbar a').bind("click", function(e) {
+        var target = $(this).attr("href"); // Get the target element
+        var scrollToPosition = $(target).offset().top; // Position to scroll to
+        $('html /* For FF & IE */,body /* For Chrome */').animate({
+            'scrollTop': scrollToPosition 
+        }, 850, function(target){
+            window.location.hash = target;
+        });
+        e.preventDefault();
+    });
+
+    $('#button-start a').bind("click", function(e) {
+        var target = $(this).attr("href"); // Get the target element
+        var scrollToPosition = $(target).offset().top; // Position to scroll to
+        $('html /* For FF & IE */,body /* For Chrome */').animate({
+            'scrollTop': scrollToPosition 
+        }, 850, function(target){
+            window.location.hash = target;
+        });
+        e.preventDefault();
+    });
+
+    $('#backTop a').bind("click", function(e) {
+        var target = $(this).attr("href"); // Get the target element
+        var scrollToPosition = $(target).offset().top; // Position to scroll to
+        $('html /* For FF & IE */,body /* For Chrome */').animate({
+            'scrollTop': scrollToPosition 
+        }, 850, function(target){
+            window.location.hash = target;
+        });
+        e.preventDefault();
+    });
 
     $(window).scroll(function() {
         if ( $(window).scrollTop() > amountScrolled ) {
